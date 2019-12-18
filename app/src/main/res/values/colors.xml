@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+<!--    MyColor   -->
+    <color name="warnaSatu">#031727</color>
+    <color name="warnaDua">#126872</color>
+    <color name="warnaTiga">#0B877D</color>
+    <color name="warnaEmpat">#18C29C</color>
+    <color name="warnaLima">#CDCFC6</color>
+</resources>
