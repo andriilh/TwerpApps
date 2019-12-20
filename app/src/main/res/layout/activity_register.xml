@@ -119,32 +119,34 @@
 
             </LinearLayout>
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:gravity="center">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Already have an Account"
-                    android:textAlignment="center"
-                    android:textColor="@android:color/black"
-                    android:textStyle="bold" />
-
+                android:layout_height="match_parent">
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
+                    android:layout_alignParentBottom="true"
                     android:layout_marginLeft="40dp"
                     android:layout_marginRight="40dp"
                     android:layout_marginTop="10dp"
                     android:id="@+id/signin"
                     android:background="@drawable/button_background"
                     android:text="SIGN IN"
-                    android:textColor="@color/colorWhite" />
-            </LinearLayout>
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginBottom="30dp"/>
+
+                <TextView
+                    android:id="@+id/donthave"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Already have an Account"
+                    android:gravity="center"
+                    android:layout_above="@id/signin"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"/>
+
+
+            </RelativeLayout>
         </LinearLayout>
     </LinearLayout>
 
