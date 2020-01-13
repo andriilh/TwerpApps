@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "951017488574",
+    "firebase_url": "https://twerpapps.firebaseio.com",
+    "project_id": "twerpapps",
+    "storage_bucket": "twerpapps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951017488574:android:83f2f08c3eabff37c31eef",
+        "android_client_info": {
+          "package_name": "com.example.twerpapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951017488574-u2c4ensrs7t287gt1k2gguh1qietvcqh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.twerpapps",
+            "certificate_hash": "e59828d6eabac0d522c9588f85babcc793838275"
+          }
+        },
+        {
+          "client_id": "951017488574-soo571eafuseosc3iri7rcg6tm3bph7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmzTuYh9vziSSMMvWG7eq8JsF3jN37K6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951017488574-soo571eafuseosc3iri7rcg6tm3bph7j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
